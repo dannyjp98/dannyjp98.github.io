@@ -1,0 +1,78 @@
+body {
+    background-color: #ffffff;
+}
+h1 {
+    font-family: "jiskan24";
+    src:url('../fonts/jiskan24.tff');
+    color: #333333; }
+  
+  a, p, li {
+    font-family: "jiskan24";
+    src:url('../fonts/jiskan24.tff');
+    color: #333333;
+    font-size: 1em;
+    line-height: 1.75em; }
+
+.main-nav{
+    position:fixed;
+    background-color: #969696;
+}
+.main-nav li {
+	width:120px;
+}
+.main-nav ul {
+    list-style-type: none;
+    overflow: hidden;
+  }
+
+  .container {
+    margin: auto;
+    max-width: 662px;
+    padding: 0 20px; }
+  
+  .intro {
+    margin-left: 0px; 
+    padding: 95px 0px 70px 0px;
+    overflow-x: hidden; }
+    .intro img {
+      width: 81px;
+      height: 81px;
+      border-radius: 99px; }
+    .intro .wrap {
+      margin: 30px 0px; }
+    .intro h1:before {
+      position: absolute;
+      left: -220px;
+      top: -150px;
+      font-size: 270px;
+      z-index: -1;}
+    .intro h1 span {
+      font-size: 47px; }
+  
+  .work .work-list {
+    margin-left: 0px; }
+    .work .work-list li {
+      list-style: none;
+      font-size: 0.9375em;}
+      .work .work-list li a {
+        padding-bottom: 5px;
+        font-size: 1.1875em;
+        font-weight: 700;
+        text-decoration: none;
+        border-bottom: 1px solid #b3b3b3; }
+        .work .work-list li a:hover {
+          border-bottom: 1px solid #333333; }
+  
+  .skills .skill-list {
+    margin-left: 0px; }
+    .skills .skill-list li:first-child {
+        color: #969696;
+      font-size: 0.9375em;}
+  
+  footer {
+    padding: 50px 0px 0px 0px; }
+    footer .social li {
+      display: inline;
+      margin-left: 20px; }
+      footer .social li a {
+        font-size: 1.25em;}
