@@ -1,6 +1,11 @@
 body {
     background-color: #ffffff;
 }
+
+#cube {
+  float:right;
+  position:static;
+}
 h1 {
     font-family: "jiskan24";
     src:url('../fonts/jiskan24.tff');
