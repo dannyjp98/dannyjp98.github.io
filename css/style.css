@@ -1,26 +1,26 @@
 body {
-    background-color: #ffffff;
+    background-color: #222222;
+    font-family: "Inconsolata";
 }
+#highlight {
+  color:#94c6ff;
 
+}
 #cube {
   float:right;
   position:static;
 }
 h1 {
-    font-family: "jiskan24";
-    src:url('../fonts/jiskan24.tff');
-    color: #333333; }
+    color: #e0e0e0; }
   
   a, p, li {
-    font-family: "jiskan24";
-    src:url('../fonts/jiskan24.tff');
-    color: #333333;
+    color: #d4d4d4;
     font-size: 1em;
     line-height: 1.75em; }
 
 .main-nav{
     position:fixed;
-    background-color: #969696;
+    background-color: #afafaf;
 }
 .main-nav li {
 	width:120px;
@@ -66,7 +66,7 @@ h1 {
         text-decoration: none;
         border-bottom: 1px solid #b3b3b3; }
         .work .work-list li a:hover {
-          border-bottom: 1px solid #333333; }
+          border-bottom: 1px solid #cecece; }
   
   .skills .skill-list {
     margin-left: 0px; }
