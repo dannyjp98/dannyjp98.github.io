@@ -1,103 +1,448 @@
-<!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>Portfolio</title>
-    <meta charset="utf-8" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet'>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+    <title>Daniel Park</title>
+    <!-- ===== CSS Files ===== -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/skins/color-1.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> -->
 </head>
 
-<body>
-    <!-- Navigation -->
-    <!-- <div class="main-nav">
-        <div class="container">
-            <nav id="navbar-1" class="navbar item-nav">
-                <ul>
-                    <li class="active"><a href="#about">About</a></li>
-                    <li><a href="#education">Education</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#skills">Skills</a></li>
+<body class="dark">
+    <!-- ===== Main Container Start ===== -->
+    <div class="main-container">
+        <!-- ===== Aside Start ===== -->
+        <div class="aside">
+            <div class="home-img padd-2">
+                <img height="80" width="80" src="img/profilepic.JPG" alt="">
+                <h2 class="name-text">Daniel Jaymin Park</h2>
+                <div class="subtext">Student, Software Engineer, & Game Developer</div>
+                <ul class="nav">
+
+                    <li><a href="#about" class=""><i class="fa fa-user"></i> About</a></li>
+                    <li><a href="#portfolio" class=""><i class="fa fa-list"></i>Portfolio</a></li>
+                    <li><a href="#education" class=""><i class="fa-solid fa-graduation-cap"></i>Education</a></li>
+                    <li><a href="#experience"><i class="fa fa-briefcase"></i>Experience</a></li>
+                    <a href="downloads/Resume_Park_Daniel.docx (17).pdf" target="_blank" class="btn">Download CV</a>
                 </ul>
-            </nav>
+            </div>
         </div>
-    </div> -->
+        <!-- ===== Aside End ===== -->
+        <!-- ===== Main Content Start ===== -->
+        <div class="main-content">
+            <!-- ===== About Section Start ===== -->
+            <section class="about section" id="about">
+                <div class="container">
+                    <div class="row">
+                    </div>
+                    <div class="row">
+                        <div class="about-content padd-15">
+                            <div class="row">
+                                <div class="about-text padd-15">
+                                    <h3>Hi! My name is Daniel Jaymin Park</h3>
+                                    <p>I'm a junior studying computer science at the University of Michigan, College of
+                                        Engineering.
+                                        My interests are in fullstack software engineering, game development, and AR/VR.
+                                        I'm currently looking for internship opportunities for Summer 2024!
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="personal-info padd-15">
+                                    <div class="row">
+                                        <div class="info-item padd-15">
+                                            <p>Email : <span>dannyjp@umich.edu</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Linkedin : <a href="https://www.linkedin.com/in/danielpark01/">
+                                                    linkedin.com/in/danielpark01/</a></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Education : <span>University of Michigan College of Engineering
+                                                    (BSE)</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Majors : <span>Computer Science Engineering</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Phone : <span>(703) 627-8684</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Citizenship: <span>United States</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Currently Seeking : <span>Internship for Summer 2024</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Github : <a href="https://github.com/dannyjp98"> github.com/dannyjp98</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skills padd-15">
+                                    <div class="row">
+                                        <div class="skill-item padd-15">
+                                            <h5>C++</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 95%;"></div>
+                                                <div class="skill-percent">95%</div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item padd-15">
+                                            <h5>Python</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 80%;"></div>
+                                                <div class="skill-percent">85%</div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item padd-15">
+                                            <h5>C#</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 85%;"></div>
+                                                <div class="skill-percent">85%</div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item padd-15">
+                                            <h5>C</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 80%;"></div>
+                                                <div class="skill-percent">80%</div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item padd-15">
+                                            <h5>Javascript</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 75%;"></div>
+                                                <div class="skill-percent">75%</div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item padd-15">
+                                            <h5>Unreal Engine</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 75%;"></div>
+                                                <div class="skill-percent">75%</div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item padd-15">
+                                            <h5>Unity</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 75%;"></div>
+                                                <div class="skill-percent">75%</div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item padd-15">
+                                            <h5>HTML</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 75%;"></div>
+                                                <div class="skill-percent">75%</div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item padd-15">
+                                            <h5>Java</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 60%;"></div>
+                                                <div class="skill-percent">60%</div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item padd-15">
+                                            <h5>CSS</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 50%;"></div>
+                                                <div class="skill-percent">50%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- ===== About Section End ===== -->
 
-    <!-- Introduction -->
-    <div class="intro section" id="about">
-        <div class="container">
-            <h1>My name is <em id="highlight">Daniel Jaymin Park</em> and I'm a second-year Computer Science student
-                at the University of Michigan. My interests are fullstack & backend software development, machine learning, and game development
-            </h1>
-            <div id="cube"></div>
-        </div>
-    </div>
-    <!-- Education -->
-    <div class="work section second" id="education">
-        <div class="container">
-            <h1>Education</h1>
-            <ul class="work-list">
-                <li>2017-2020</li>
-                <li><a href="#">Thomas Jefferson HS for Sci & Tech</a></li>
-                <li>Coursework: Artificial Intelligence I & II, Computer Vision, Microcontrollers & Robotics, Web App
-                    Development</li>
-            </ul>
-            <ul class="work-list">
-                <li>2021-2025</li>
-                <li><a href="#">Computer Science @ University of Michigan CoE</a></li>
-                <li>Coursework: Data Structures and Algorithms, Computer Science Theory, Machine Learning, UI Development</li>
-            </ul>
-        </div>
-    </div>
+            <!-- ===== Portfolio Section Start ===== -->
+            <section class="service section back-section active" id="portfolio">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>Portfolio</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <!-- ===== Service item Start ====== -->
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <img class="project-image" src="img/wallpaper2.png">
+                                <h4>Ronin Trail
+                                </h4>
+                                <p>
+                                    ● Indie game coded in C++ with over 57,000 wishlists on Steam
+                                </p>
+                                <p>
+                                    ● Top 500 wishlisted games
+                                </p>
+                                <p>
+                                    ● Raised $45,014 on Kickstarter
+                                </p>
+                                <p>
+                                    ● Epic MegaGrant Recipient
+                                </p>
+                                <br />
+                                <p>
+                                    Skills: Unreal Engine 4, C++, Blender
+                                </p>
+                            </div>
+                        </div>
+                        <!-- ===== Service item End ====== -->
+                        <!-- ===== Service item Start ====== -->
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <img class="project-image" src="img/Screenshot 2023-10-30 114539.png">
+                                <h4>Paranoir</h4>
+                                <p>
+                                    ● Game about spies trying to kill each other
+                                </p>
+                                <p>
+                                    ● WolverineSoft's MegaJam 2023 1st Place Winner & Most Polished Game
+                                </p>
+                                <p>
+                                    ● Developed in Unreal Engine 4
+                                </p>
+                                <p>
+                                    ● Led team of engineers, game designers, and artists to design, develop, and ship a
+                                    polished game within 48-hours
+                                </p>
+                                <br />
+                                <p>
+                                    Skills: C++, Blender
+                                </p>
+                            </div>
+                        </div>
+                        <!-- ===== Service item End ====== -->
+                        <!-- ===== Service item Start ====== -->
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <img class="project-image" src="img/fitnessbuddies.png">
+                                <h4>Fitness Buddies</h4>
+                                <p>
+                                    ● Matchmaking application for fitness enthusiasts to find other people with similar
+                                    interests
+                                </p>
+                                <p>
+                                    ● Built with VueJS and Firebase
+                                </p>
+                                <p>
+                                    ● Led team of 4 engineers and followed Agile project management
+                                </p>
+                                <br />
+                                <p>
+                                    Skills: VueJS, Javascript, Firebase
+                                </p>
+                            </div>
+                        </div>
+                        <!-- ===== Service item End ====== -->
 
-    <!-- Work Experience -->
-    <div class="work section second" id="projects">
-        <div class="container">
-            <h1>Projects</h1>
-            <ul class="work-list">
-                <li>2021-Present</li>
-                <li><a href="https://www.ronintrailgame.com/">Ronin Trail</a></li>
-                <li>Independent game about a wandering samurai. Developed with Unreal Engine 4.</li>
-            </ul>
-            <!-- <ul class="work-list">
-                <li>2014-2015</li>
-                <li><a href="#">Recorder Legend</a></li>
-                <li>Youtube Account with over 550k subscribers. Makes recorder covers that actually sound decent.</li>
-            </ul> -->
-            <!-- <ul class="work-list">
-                <li>2020</li>
-                <li><a href="#">Drip.io Web Application</a></li>
-                <li>Website application to collect price data on popular retail items and notify user of potential
-                    discounts.
-                    Retrieved data with Python Selenium scripts and stored information on a MongoDB database.</li>
-                <li>Technologies: AWS, Python Selenium, HTML/CSS, Javascript, MongoDB</li>
-            </ul> -->
-        </div>
-    </div>
+                        <!-- ===== Service item Start ====== -->
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-code"></i>
+                                </div>
+                                <h4>Support Vector Machine Multiclass Classifier</h4>
+                                <p>Developed a python algorithm to train a polynomial kernel
+                                    Support Vector Machine to map sample text reviews to a label map consisting of
+                                    positive and negative attributes while
+                                    optimizing the hyperparameters. Calculated and developed multiple different models
+                                    which maximized different metrics for
+                                    a multiclass SVM using a one vs one approach in order to correctly classify reviews
+                                    on a rating scale of 1 to 5.</p>
+                                <br />
+                                <p>
+                                    Skills: Python 3, ScikitLearn
+                                </p>
+                            </div>
+                        </div>
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-code"></i>
+                                </div>
+                                <h4>Neural Network multiclass classifier</h4>
+                                <p>Developed a python algorithm to train a 7 layer Convolutional Neural Network with 2
+                                    pooling layers. The classifier was trained on a subset of 2000 images of
+                                    10 various dogbreeds and validated on 500 images with an accuracy of 89.5%. For
+                                    training, I used greyscale images of the dogs as well as distorted/rotated images
+                                    to generate various training material to ensure a high accuracy score.
+                                </p>
+                                <br />
+                                <p>
+                                    Skills: Python 3, PyTorch
+                                </p>
+                            </div>
+                        </div>
+                        <!-- ===== Service item End ====== -->
+                        <!-- ===== Service item Start ====== -->
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-code"></i>
+                                </div>
+                                <h4>PictoGram Social</h4>
+                                <p>
+                                    Built social media application using React frontend, Flask backend, and SQL
+                                    database deployed on AWS EC2 instance
+                                    Implemented secure account system with encrypted passwords in Sqlite3 database using
+                                    sha-256 cryptographic hash function
+                                    Developed client side dynamic front end with infinite scroll, comments, and liking
+                                    functionality
+                                </p>
+                                <br />
+                                <p>
+                                    Skills: Python, Javascript, ReactJS, Flask, SQL, AWS
+                                </p>
+                            </div>
+                        </div>
+                        <!-- ===== Service item End ====== -->
+                        <!-- ===== Service item Start ====== -->
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-code"></i>
+                                </div>
+                                <h4>MiSocial Database</h4>
+                                <p>
+                                    Designed relational database ER diagram and implemented schema for Michigan themed
+                                    social media application
+                                    Wrote SQL queries and Java backend to query from an Oracle database of 800 users;
+                                    Efficiently queried for search
+                                    criteria such as top 10 users with highest mutual count, users tagged together the
+                                    most, and most active users based on
+                                    post history
+                                </p>
+                                <br />
+                                <p>
+                                    Skills: Java, OracleDB, SQL
+                                </p>
+                            </div>
+                        </div>
+                        <!-- ===== Service item End ====== -->
+                    </div>
+                </div>
+            </section>
+            <!-- ===== Portfolio Section End ===== -->
 
-    <!-- Technical Skills -->
-    <div class="skills section second" id="skills">
-        <div class="container">
-            <h1>Technical<br>Skills</h1>
-            <ul class="skill-list list-flat">
-                <li>Programming Languages</li>
-                <li>C / C++ / C# / Python</li>
-            </ul>
-            <ul class="skill-list list-flat">
-                <li>Web Technology</li>
-                <li>HTML / CSS / Javascript / Node JS</li>
-            </ul>
-            <ul class="skill-list list-flat">
-                <li>Game Development</li>
-                <li>Unreal Engine 4 / Unity / Blender / MagicaVoxel / Adobe Photoshop</li>
-            </ul>
-            <ul class="skill-list list-flat">
-                <li>Video Production</li>
-                <li>Final Cut Pro X, Audacity, Adobe Premiere Pro</li>
-            </ul>
+
+            <!-- ===== Education Section Start ===== -->
+            <section class="portfolio section" id="education">
+                <div class="container">
+                    <div class="experience padd-15">
+                        <h3 class="title">Education</h3>
+                        <div class="row">
+                            <div class="timeline-box padd-15">
+                                <div class="timeline">
+                                    <!-- ===== timeline item ===== -->
+                                    <div class="timeline-item">
+                                        <div class="circle-dot"></div>
+                                        <h3 class="timeline-date">
+                                            <i class="fa fa-calendar"></i> 2021 - 2025
+                                        </h3>
+                                        <div class="timeline-title">University of Michigan College of Engineering </div>
+                                        <h4 class="timeline-text">Bachelors of Science in Computer Science Engineering |
+                                            GPA:
+                                            3.98
+                                        </h4>
+                                        <br />
+
+                                        <p class="timeline-text">Relevant Course work: </p>
+
+                                        <p class="timeline-text"><b> Computer Organization </b> (EECS 370) |
+                                            Grade: A</p>
+                                        <p class="timeline-text"><b> Data Structures and Algorithms </b> (EECS
+                                            281) | Grade: A</p>
+                                        <p class="timeline-text"><b> Foundations of Comp Sci </b> (EECS 376) |
+                                            Grade: A </p>
+                                        <p class="timeline-text"><b> Machine Learning (EECS 445) | Grade: A- </p>
+                                        </b>
+                                        <p class="timeline-text"><b> Linear Algebra </b> | Grade: A</p>
+                                        <p class="timeline-text"><b> Calculus I - IV </b> | Grade: A</p>
+                                        <p class="timeline-text"><b> Discrete Statistics and analysis </b> |
+                                            Grade: A</p>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- ===== Education Section End ===== -->
+
+            <!-- ===== Experience Section Start ===== -->
+            <section class="portfolio section" id="experience">
+                <div class="container">
+                    <div class="experience padd-15">
+                        <h3 class="title">Experience</h3>
+                        <div class="row">
+                            <div class="timeline-box padd-15">
+                                <div class="timeline">
+                                    <!-- ===== timeline item ===== -->
+                                    <div class="timeline-item">
+                                        <div class="circle-dot"></div>
+                                        <h3 class="timeline-date">
+                                            <i class="fa fa-calendar"></i> 2023 - 2023
+                                        </h3>
+                                        <h4 class="timeline-title">Raytheon Software Engineer Intern</h4>
+                                        <p class="timeline-text">
+                                            ● Modernized backend C# code for procurement manufacturing approval web
+                                            application from ASP.NET (2012) to .NET Core 7
+                                            (2023) and improved user interface with Bootstrap 5
+                                        </p>
+                                        <p>
+                                            ● Wrote RESTful Web APIs for admin functionality and created dashboard for
+                                            displaying various data analytics
+                                        </p>
+                                        <p>
+                                            ● Implemented caching and optimized SQL relations and queries to speed up
+                                            page
+                                            load times of over 35,500 item procurement
+                                            entries by 400%
+                                        </p>
+                                        <p>
+                                            ● Expanded app functionality from 1 contract to 5 contracts modernizing a
+                                            system that was previously done through physical
+                                            paperwork and resulting in over 30,000 man hours a year saved across 220
+                                            employees
+                                        </p>
+                                        <p>
+                                            ● Used Agile project management with regular scrum meetings to effectively
+                                            meet deadlines
+                                        </p>
+                                    </div>
+                                    <!-- ===== timeline item ===== -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- ===== Experience Section End ===== -->
+
         </div>
+        <!-- ===== Main Content End ===== -->
     </div>
-    <!-- Quote -->
+    <!-- ===== Main Container End ===== -->
+    <!-- ===== JS Files ===== -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"
+        referrerpolicy="no-referrer"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/script.js" defer=""></script>
+    <script src="https://kit.fontawesome.com/2fc0b410ad.js" crossorigin="anonymous"></script>
+
 </body>
 
 </html>
